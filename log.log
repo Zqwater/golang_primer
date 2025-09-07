@@ -1,0 +1,150 @@
+GoLesson09:51:23 inner_type.go:19: bool类型:b1=false,b2=false,b3=true,b4=false
+GoLesson09:51:23 inner_type.go:40: 整型带符号:i1=0,i2=-32768,i3=-2147483648,i4=2147483647,i5=-9223372036854775808
+GoLesson09:51:23 inner_type.go:41: 整型无符号:u1=0,u2=65,u3=65535,u4=4294967295,u5=18446744073709551615,u6=65
+GoLesson09:51:23 inner_type.go:42: 浮点型:f1=3.141593,f2=3.141593
+GoLesson09:51:23 inner_type.go:53: 字符串类型:s1=,s2=golang,s3=gin,s4=go-zero,s5=hello 世界
+GoLesson09:51:23 inner_type.go:54: len of s5 = 12
+GoLesson09:51:23 inner_type.go:63: 复数类型:c1=(1.1+2i),c2=(2.718+3i),c3=(3.14+2.2i)
+GoLesson09:51:23 inner_type.go:64: real of c4 = 5.200000,imag of c4 = 6.600000
+GoLesson09:51:23 inner_type.go:72: 数组类型:a1=[3]int,a2=[5]float32,a3=[2]string
+GoLesson09:51:23 inner_type.go:99: user1={ 0},user2={张三 18},user3={李四 21}
+GoLesson09:51:23 inner_type.go:100: address of user4 = 0xc0000ee078,user4.Name = 小中中
+GoLesson09:51:23 inner_type.go:118: sl1=[1 2 3],sl2=[2.2 3.3 4.5],sl3=[],sl4=[hello dream skt]
+GoLesson09:51:23 inner_type.go:119: si1=[],si2=[1.2 2.4 3.6 4.8],si3=[1.2 2.4 3.6 4.8 5.1],si4=[3]
+GoLesson09:51:23 inner_type.go:120: ss1=[0],ss2=[0 0],ss3=[0 0 0]
+GoLesson09:51:23 inner_type.go:143: m1=map[],m2=map[1:1.1 2:2.2],m3=map[1:one 2:two 3:three],m4=map[g2:caps rng:uzi skt:faker]
+GoLesson09:51:23 inner_type.go:144: mm1=map[],mm2=map[],mm3=map[]
+GoLesson09:51:23 inner_type.go:159: receive data from ch2:hello
+GoLesson09:51:23 inner_type.go:166: 单向通道类型ch3:chan<- bool,ch4:<-chan bool
+GoLesson09:51:23 inner_fun.go:22: len of str1=13,str2=8,str3=21
+GoLesson09:51:23 inner_fun.go:27: len of arr1=3,arr2=5
+GoLesson09:51:23 inner_fun.go:33: len of s1=3,s2=3,s3=2
+GoLesson09:51:23 inner_fun.go:44: len of m1=4,m2=0
+GoLesson09:51:23 inner_fun.go:51: len of ch1=0,ch2=2
+GoLesson09:51:23 inner_fun.go:56: before cap of s4=3
+GoLesson09:51:23 inner_fun.go:58: after cap of s4=6
+GoLesson09:51:23 inner_fun.go:62: before cap of ch3=3
+GoLesson09:51:23 inner_fun.go:67: after cap of ch3=3
+GoLesson09:51:23 inner_fun.go:78: p=0
+GoLesson09:51:23 inner_fun.go:85: u=&{[] 0}
+GoLesson09:51:23 inner_fun.go:90: append s4 get s5=[0 0 2 3 4 5 1 2 3]
+GoLesson09:51:23 inner_fun.go:97: copy s6 to s7 get s7=[100 200]
+GoLesson09:51:23 inner_fun.go:98: len of s7=2,cap of s7=5
+GoLesson09:51:23 inner_fun.go:100: len of s8=1,cap of s8=4
+GoLesson09:51:23 inner_fun.go:119: 四月是April
+GoLesson09:51:23 inner_fun.go:122: 删除键值对4后,m3=map[1:January 2:February 3:March 5:May 6:June 7:July 8:August 9:September 10:October 11:November 12:December]
+GoLesson09:51:23 inner_fun.go:133: ch4 receive true
+GoLesson09:51:23 inner_fun.go:154: c1=(2+3i)
+GoLesson09:51:23 inner_fun.go:155: real of cm1=2,imag of cm1=3
+GoLesson09:51:23 inner_fun.go:166: clear set elements:s10=[0 0 0 0 0],m10=map[]
+GoLesson09:51:23 inner_fun.go:171: maxValue=39,minValue=apple
+GoLesson09:51:23 inner_fun.go:143: recover from panic:panic error
+GoLesson09:51:23 calculate.go:19: ^按位取反:10100
+GoLesson09:51:23 calculate.go:26: 逻辑或
+GoLesson09:51:23 calculate.go:29: 逻辑与
+GoLesson09:51:23 calculate.go:34: 左移2位:-1010100
+GoLesson09:51:23 calculate.go:35: 右移2位:-110
+GoLesson09:51:23 underline.go:55: 下划线忽略获取值:slice is nil
+GoLesson09:51:23 underline.go:69: connect to mysqldb success!
+GoLesson09:51:23 underline.go:92: _作为结构体中的占位字段:{ 0 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] 0s}
+GoLesson09:51:23 underline.go:98: _作为字面量分割符Gigbyte:1000000 二进制GB:1073741824 手机号:17380563622
+GoLesson09:51:23 command.go:22: 参考文章:https://blog.629622.xyz/2025/07/03/golang%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/
+GoLesson09:51:23 command.go:35: 从控制台获取flag信息,名字:static,年龄:0,是否已婚:bool,程序运行端口:8080
+GoLesson09:51:23 var.go:22: 变量的集体声明b1=false,i1=0,by1=a,r1=0,f1=0.00,c1=(0+0i),str1=,up1=0
+GoLesson09:51:23 var.go:44: 块内变量blockVar=true
+GoLesson09:51:23 var.go:47: 块内变量在块外是否可以访问:false
+GoLesson09:51:23 const.go:57: userPermisson: 11, adminPermission: 111
+GoLesson09:51:23 const.go:68: A: 0, B: 1, C: 100, D: 100, E: 5, F: 6
+GoLesson09:51:23 const.go:77: 自定义启始值:one: 101, two: 102, three: 103
+GoLesson09:51:23 array.go:61: arr1=[0 0 0],arr2=[a b c],arr3=[65 97],arr4=[3.14 2.718 1.41],arr5=[{18 static} {22 water}],arr6=[[1 2 3] [200 301 404] [1024 1048576]],arr7=[map[1:a 2:b] map[100:aa 200:bb]],arr8=[0x5eeb40 0x5eeb60 0x5eeb80]
+GoLesson09:51:23 array.go:76: 数组切片转换。数组转为切片s=[101 102 103],切片转为数组arrs=&[101 102]
+GoLesson09:51:23 array.go:90: 遍历marr1:
+GoLesson09:51:23 array.go:93: 0
+GoLesson09:51:23 array.go:93: 1
+GoLesson09:51:23 array.go:93: 0
+GoLesson09:51:23 array.go:93: 1
+GoLesson09:51:23 array.go:93: 0
+GoLesson09:51:23 array.go:93: 1
+GoLesson09:51:23 array.go:97: 遍历marr2地址:
+GoLesson09:51:23 array.go:100: 0xc0000a2c28
+GoLesson09:51:23 array.go:100: 0xc0000a2c38
+GoLesson09:51:23 array.go:100: 0xc0000a2c48
+GoLesson09:51:23 array.go:100: 0xc0000a2c58
+GoLesson09:51:23 array.go:100: 0xc0000a2c68
+GoLesson09:51:23 array.go:100: 0xc0000a2c78
+GoLesson09:51:23 array.go:100: 0xc0000a2c88
+GoLesson09:51:23 array.go:100: 0xc0000a2c98
+GoLesson09:51:23 array.go:100: 0xc0000a2ca8
+GoLesson09:51:23 array.go:108: marr2[0][0] = true
+GoLesson09:51:23 array.go:108: marr2[0][1] = false
+GoLesson09:51:23 array.go:108: marr2[0][2] = true
+GoLesson09:51:23 array.go:108: marr2[1][0] = false
+GoLesson09:51:23 array.go:108: marr2[1][1] = true
+GoLesson09:51:23 array.go:108: marr2[1][2] = false
+GoLesson09:51:23 array.go:108: marr2[2][0] = true
+GoLesson09:51:23 array.go:108: marr2[2][1] = true
+GoLesson09:51:23 array.go:108: marr2[2][2] = true
+GoLesson09:51:23 struct.go:27: 自定义类型:MyString=structtype.MyString,MyChan=structtype.MyChan,User=structtype.User
+GoLesson09:51:23 struct.go:33: 类型别名:NewString=structtype.MyString,NewUser=structtype.User
+GoLesson09:51:23 struct.go:60: Man基本实例化:{Name:static Age:18 Married:false}
+GoLesson09:51:23 struct.go:65: Man使用new实例化:{Name:static Age:18 Married:false}
+GoLesson09:51:23 struct.go:70: Man使用取结构体指针实例化:&{Name:water Age:26 Married:false}
+GoLesson09:51:23 struct.go:100: 结构体初始化:a1={Province:sichuang City:chengdu},a2=&{Province:shanghai City:shanghai},a3=&{Province:beijing City:beijing},a4={Province:guangdong City:shenzhen},a5=&{Province:guangxi City:nanning},a6={Province:taiwan City:gaoxiong}
+GoLesson09:51:23 struct.go:111: 匿名结构体:{Length:17 time:1800000000000}
+GoLesson09:51:23 struct.go:122: 匿名结构体嵌套as2=:{Address:{Province:tokyo City:daban}}
+GoLesson09:51:23 struct.go:139: 匿名字段外部city=shanghai,匿名字段内部city=shanghai
+GoLesson09:51:23 struct.go:185: json序列化boys:[{"dream":"the world beauty","vargin":true,"age":18,"name":"static"},{"dream":"the world awful","vargin":false,"age":22,"name":"water"}]
+GoLesson09:51:23 struct.go:189: 反射读取标签json:age
+GoLesson09:51:23 struct.go:190: 反射读取标签db:user_age
+GoLesson09:51:23 struct.go:207: Example内存对齐细节:0	4	8	16
+GoLesson09:51:23 struct.go:284: stu1=&{static 22 {35 1003}},stu2={water 28 {20 2004}}
+GoLesson09:51:23 struct.go:300: father father1 run go
+
+GoLesson09:51:23 struct.go:314: son run python
+GoLesson09:51:23 struct.go:314: son run java
+GoLesson09:51:23 empty_struct.go:21: sizeof empty1=0
+GoLesson09:51:23 empty_struct.go:22: sizeof empty2=0
+GoLesson09:51:23 empty_struct.go:24: address of empty1=0x8fb520
+,address of empty2=0x8fb520
+GoLesson09:51:23 empty_struct.go:48: Emp1 open
+GoLesson09:51:23 empty_struct.go:52: Emp1 close
+GoLesson09:51:23 empty_struct.go:84: set1 contains 20:true
+GoLesson09:51:23 empty_struct.go:105: go on working
+GoLesson09:51:23 empty_struct.go:105: go on working
+GoLesson09:51:23 empty_struct.go:105: go on working
+GoLesson09:51:23 empty_struct.go:105: go on working
+GoLesson09:51:23 empty_struct.go:105: go on working
+GoLesson09:51:23 empty_struct.go:105: go on working
+GoLesson09:51:23 empty_struct.go:105: go on working
+GoLesson09:51:23 empty_struct.go:105: go on working
+GoLesson09:51:23 empty_struct.go:105: go on working
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 empty_struct.go:103: work stop
+GoLesson09:51:23 pointer.go:48: p1=0xc0000120c8,p2=0xc0000120d0,p3=0xc000014050,p4=0xc00001c2a0,p5=0xc00001c2a0,p6=0xc00004e008
+GoLesson09:51:23 pointer.go:49: 指针取值v:*p1=1001,*p2=false,*p3={static},*p4=[(1.1+3.14i) (1+2i) (101+22.33i)],p5=0xc00001c2a0
+GoLesson09:51:23 pointer.go:72: safe.Pointer转换*int为*float32:1078523331
+GoLesson09:51:23 pointer.go:93: 值类型内存大小:int=8,byte=1,bool=1,complex=16,string=16,array=16,struct=24
+GoLesson09:51:23 pointer.go:106: 值类型对应指针内存大小:*int=8,*byte=8,*bool=8,*complex=8,*string=8,*array=8,*struct=8
+GoLesson09:51:23 pointer.go:115: 切片类型:24,map类型:8,chan类型:8
