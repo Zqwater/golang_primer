@@ -1,8 +1,8 @@
 package chapters
 
 import (
-	gobasic "basicGo/basicLesson/chapters/gobasic"
-	"basicGo/basicLesson/chapters/imptype"
+	gobasic "golang_primer/chapters/gobasic"
+	"golang_primer/chapters/imptype"
 )
 
 // 章节入口函数

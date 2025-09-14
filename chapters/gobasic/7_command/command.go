@@ -1,8 +1,8 @@
 package command
 
 import (
-	"basicGo/basicLesson/golog"
 	"flag"
+	"golang_primer/golog"
 )
 
 /* golang命令 */

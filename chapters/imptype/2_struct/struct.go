@@ -1,9 +1,9 @@
 package structtype
 
 import (
-	"basicGo/basicLesson/golog"
 	"encoding/json"
 	"fmt"
+	"golang_primer/golog"
 	"reflect"
 	"time"
 	"unsafe"

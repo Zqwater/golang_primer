@@ -1,8 +1,8 @@
 package main
 
 import (
-	"basicGo/basicLesson/chapters"
-	"basicGo/basicLesson/golog"
+	"golang_primer/chapters"
+	"golang_primer/golog"
 )
 
 func init() {

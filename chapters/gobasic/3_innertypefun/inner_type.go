@@ -1,7 +1,7 @@
 package innertypefun
 
 import (
-	"basicGo/basicLesson/golog"
+	"golang_primer/golog"
 )
 
 /* 内置类型 */

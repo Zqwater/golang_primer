@@ -1,7 +1,7 @@
 package pointer
 
 import (
-	"basicGo/basicLesson/golog"
+	"golang_primer/golog"
 	"unsafe"
 )
 

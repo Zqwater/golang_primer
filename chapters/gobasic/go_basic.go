@@ -1,14 +1,14 @@
 package gobasic
 
 import (
-	langfeature "basicGo/basicLesson/chapters/gobasic/1_langfeature"
-	languagebasic "basicGo/basicLesson/chapters/gobasic/2_languagebasic"
-	innertypefun "basicGo/basicLesson/chapters/gobasic/3_innertypefun"
-	initwithmain "basicGo/basicLesson/chapters/gobasic/4_initwithmain"
-	calculatesignal "basicGo/basicLesson/chapters/gobasic/5_calculatesignal"
-	underline "basicGo/basicLesson/chapters/gobasic/6_underline"
-	command "basicGo/basicLesson/chapters/gobasic/7_command"
-	varwithconst "basicGo/basicLesson/chapters/gobasic/8_varwithconst"
+	langfeature "golang_primer/chapters/gobasic/1_langfeature"
+	languagebasic "golang_primer/chapters/gobasic/2_languagebasic"
+	innertypefun "golang_primer/chapters/gobasic/3_innertypefun"
+	initwithmain "golang_primer/chapters/gobasic/4_initwithmain"
+	calculatesignal "golang_primer/chapters/gobasic/5_calculatesignal"
+	underline "golang_primer/chapters/gobasic/6_underline"
+	command "golang_primer/chapters/gobasic/7_command"
+	varwithconst "golang_primer/chapters/gobasic/8_varwithconst"
 )
 
 /* goalng基础入口函数 */

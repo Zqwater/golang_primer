@@ -1,6 +1,6 @@
 package array
 
-import "basicGo/basicLesson/golog"
+import "golang_primer/golog"
 
 /* golang数组类型 值类型*/
 func Array() {

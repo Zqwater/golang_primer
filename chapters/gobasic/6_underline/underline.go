@@ -1,9 +1,9 @@
 package underline
 
 import (
-	"basicGo/basicLesson/golog"
 	"database/sql"
 	"errors"
+	"golang_primer/golog"
 	"os"
 	"time"
 

@@ -1,7 +1,7 @@
 package structtype
 
 import (
-	"basicGo/basicLesson/golog"
+	"golang_primer/golog"
 	"time"
 	"unsafe"
 )

@@ -1,6 +1,6 @@
 package varwithconst
 
-import "basicGo/basicLesson/golog"
+import "golang_primer/golog"
 
 /* go语言变量 */
 func Var() {

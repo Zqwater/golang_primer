@@ -1,7 +1,7 @@
 package calculatesignal
 
 import (
-	"basicGo/basicLesson/golog"
+	"golang_primer/golog"
 )
 
 /* 运算符 */

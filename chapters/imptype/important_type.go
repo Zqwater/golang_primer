@@ -1,9 +1,9 @@
 package imptype
 
 import (
-	array "basicGo/basicLesson/chapters/imptype/1_array"
-	structtype "basicGo/basicLesson/chapters/imptype/2_struct"
-	pointer "basicGo/basicLesson/chapters/imptype/3_pointer"
+	array "golang_primer/chapters/imptype/1_array"
+	structtype "golang_primer/chapters/imptype/2_struct"
+	pointer "golang_primer/chapters/imptype/3_pointer"
 )
 
 func ImpType() {
